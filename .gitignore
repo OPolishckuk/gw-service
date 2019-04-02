@@ -1,8 +1,20 @@
 # Compiled class file
 *.class
 
+# IDE files
+/.idea/workspace.xml
+*.iml
+**/.idea/
+**/.settings/*
+*.vscode/
+
 # Log file
 *.log
+
+.classpath
+.project
+pom.xml.versionsBackup
+.metadata/
 
 # BlueJ files
 *.ctxt
