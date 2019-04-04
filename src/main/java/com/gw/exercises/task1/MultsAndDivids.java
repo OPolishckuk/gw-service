@@ -8,11 +8,14 @@ public class MultsAndDivids {
         int a = -5;
         int b = 8;
         int c = 6;
+
         System.out.println(formula(a, b, c));
     }
+
     private static int formula (int a, int b, int c) {
         return a + b * c;
     }
+
     private static float  divider (float a, float b) {
         return a / b;
     }
