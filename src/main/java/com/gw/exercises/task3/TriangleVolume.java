@@ -11,7 +11,6 @@ public class TriangleVolume {
         System.out.println("Enter a Triangle 3rd side length");
         double c = inputHolder.nextDouble();
         inputHolder.close();
-
         formulaOfGeron(a, b, c);
     }
 
@@ -20,7 +19,7 @@ public class TriangleVolume {
         double triangleSquare = Math.sqrt(halfPerimeter *
                                          (halfPerimeter - a) *
                                          (halfPerimeter - b) *
-                                         (halfPerimeter - c) );
+                                         (halfPerimeter - c));
         System.out.println("The volume of triangle is: " + triangleSquare);
     }
 }
